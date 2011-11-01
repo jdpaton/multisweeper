@@ -1,14 +1,21 @@
-Our project for NKO 2011: Real Time Multiplayer Minesweeper.
-==
+Multisweeper
+============
 
-Please forgive the roughness of the code, there's lots of stuff here we'd never do in real world situations, but for a 48 hour competition, certain... liberties were taken.
+An entry to the 2011 Node Knockout contest: Real Time Multiplayer Minesweeper.
+------------------------------------------------------------------------------
 
-Setup
---
+https://github.com/jcohen/multisweeper
 
-1. git clone git://github.com/jcohen/multisweeper.git
-2. cd multisweeper && npm install
-3. [Download/Install Redis](http://redis.io/download)
-4. Run redis (redis-server)
-5. Run app: node lib/app.js
-6. Navigate to http://localhost:8000
+##Local Development
+
+`npm install`
+
+`node lib/app.js`
+
+
+##Deploying to Stackato
+
+`stackato push -n`
+
+
+
